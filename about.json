@@ -24,21 +24,21 @@
     "productCards": [
         {
             "heading": "Website: Jobs for Justice",
-            "imageurl": "images/Palestine-Banner.png"
+            "imageurl": "/images/Palestine-Banner.png"
         },
         {
             "heading": "Webseite: Captain Hood Wear",
-            "imageurl": "images/Captain-Banner.jpg"
+            "imageurl": "/images/Captain-Banner.jpg"
         }
     ],
     "graphicCards": [
         {
             "heading": "Brand & Book Cover Designs: Maktabah",
-            "imageurl": "images/Maktabah-Banner.jpg"
+            "imageurl": "/images/Maktabah-Banner.jpg"
         },
         {
             "heading": "Marketingkampagne: Injoy Pottfit",
-            "imageurl": "images/Injoy-Banner.jpg"
+            "imageurl": "/images/Injoy-Banner.jpg"
         }
     ]
 }
