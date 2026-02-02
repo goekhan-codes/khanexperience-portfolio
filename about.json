@@ -1,0 +1,44 @@
+{
+    "aboutMeItems": [
+        {
+            "emoji": "👋🏼",
+            "heading": "Hi, ich bin Gökhan –",
+            "text": "Product & Brand Designer mit langjähriger Erfahrung im Grafikdesign. Ich bewege mich an der Schnittstelle von visueller Klarheit, Nutzerverständnis und strategischem Denken. Die meisten Designer fangen mit Wireframes an… ich fange mit Zuhören an."
+        },
+        {
+            "emoji": "🫆",
+            "heading": "Mein Hintergrund",
+            "text": "Ich komme aus der Seelsorge. Das bedeutet: Ich kann lesen, was zwischen den Zeilen steht – bei Nutzern, Stakeholdern und Daten. Empathie ist für mich kein Buzzword, sondern Methode. Als Verlagsgründer habe ich komplexe Inhalte zugänglich gemacht und gelernt: Klarheit schlägt Cleverness. Immer."
+        },
+        {
+            "emoji": "🎨",
+            "heading": "Tools & Fokus",
+            "text": "Ich arbeite mit Figma, Framer und der Adobe Suite, nutze KI als kreativen Sparringspartner und denke in Systemen. Ich gestalte Brands, die Vertrauen schaffen, Interfaces, die Menschen gerne nutzen, und Animationen, die Geschichten erzählen."
+        },
+        {
+            "emoji": "🚀",
+            "heading": "Next Up",
+            "text": "Ich vertiefe aktuell mein technisches Verständnis im Frontend Development (HTML, CSS, JavaScript, React), um Design und Code noch enger zu verbinden."
+        }
+    ],
+    "productCards": [
+        {
+            "heading": "Website: Jobs for Justice",
+            "imageurl": "images/Palestine-Banner.png"
+        },
+        {
+            "heading": "Webseite: Captain Hood Wear",
+            "imageurl": "images/Captain-Banner.jpg"
+        }
+    ],
+    "graphicCards": [
+        {
+            "heading": "Brand & Book Cover Designs: Maktabah",
+            "imageurl": "images/Maktabah-Banner.jpg"
+        },
+        {
+            "heading": "Marketingkampagne: Injoy Pottfit",
+            "imageurl": "images/Injoy-Banner.jpg"
+        }
+    ]
+}

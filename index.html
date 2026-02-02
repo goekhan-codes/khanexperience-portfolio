@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="Images/KhanExperience-Favicon.png"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>KhanExperience Portfolio</title>
+  </head>
+
+  <body>
+    <header class="site-header" id="siteHeader">
+      <div class="nav-blur-bar"></div>
+        <nav aria-label="Hauptnavigation">
+          <div class="nav-limit">
+            <ul class="nav-structure">
+              <div class="logo" id="logo">
+                <li>
+                  <a href="#hero" aria-current="page"
+                    ><img
+                      src="/Images/KhanExperience Full Logo (no background).png"
+                      alt="KhanExperience Logo"
+                  /></a>
+                </li>
+              </div>
+              <div class="nav-elements" id="navElements">
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#aboutMe">Über mich</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+              </div>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!-- BACKGROUND IMAGE -->
+
+      <div class="background-image" id="backgroundImage"></div>
+      <div class="background-overlay" id="backgroundOverlay"></div>
+      <div class="background-overlay-about" id="backgroundOverlayAbout"></div>
+
+      <!-- HERO SECTION -->
+
+      <section class="hero" id="hero">
+        <div class="hero-text" id="heroText">
+          <h1>
+            Hi, ich bin <span class="primary">Gökhan</span> – <br />
+            ein <span class="secondary">Creative Developer</span><br />
+            mit Herz für <span class="secondary">Branding</span>.
+          </h1>
+          <h4>
+            Ich gestalte intuitive Nutzererlebnisse, <br />
+            die Marken Seelen geben.
+          </h4>
+        </div>
+      </section>
+
+      <!-- PORTFOLIO -->
+
+      <section class="portfolio" id="portfolio">
+        <div class="centered">
+          <div class="spin-card">
+            <div class="spin-card__content">
+              <h2>Portfolio</h2>
+            </div>
+          </div>
+        </div>
+        <div class="centered-category">
+          <div class="spin-card-category">
+            <div class="spin-card__content-category">
+              <h2>Product Design</h2>
+            </div>
+          </div>
+        </div>
+          <div class="product-wrapper" id="productWrapper"></div>
+        <div class="centered-category">
+          <div class="spin-card-category">
+            <div class="spin-card__content-category">
+              <h2>Grafik / Brand Design</h2>
+            </div>
+          </div>
+        </div>
+          <div class="graphic-wrapper" id="graphicWrapper"></div>
+      </section>
+
+      <!-- ABOUT ME -->
+      <section class="about-me" id="aboutMe">
+        <div class="centered">
+          <div class="spin-card">
+            <div class="spin-card__content">
+              <h2>Über mich</h2>
+            </div>
+          </div>
+        </div>
+        <div class="about-wrapper" id="aboutContent"></div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="contact" id="contact">
+        <div class="centered">
+          <div class="spin-card">
+            <div class="spin-card__content">
+              <h2>Kontakt</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
