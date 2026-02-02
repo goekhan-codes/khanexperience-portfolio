@@ -173,16 +173,41 @@ nav {
 
 @media (max-width: 550px) {
 .nav-elements {
+  display: none
+}
+}
+
+.burger-menu {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 10px;
-  font-size: 0.7em;
+  rotate: 20;
+  stroke: white;
+  stroke-width: 2;
+  font-size: 0.85em;
+}
+
+.burger-menu:hover {
+  stroke: turquoise;
+}
+
+.burger-menu:active {
+  stroke: teal;
+}
+
+@media (min-width: 551px) {
+.burger-menu {
+  display:none
 }
 }
 
 .logo img {
   max-width: 120px;
+}
+
+@media (max-width: 551px) { 
+.logo img {
+  max-width: 90px;
+}
 }
 
 .hero {
