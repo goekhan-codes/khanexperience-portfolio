@@ -166,15 +166,26 @@ nav {
 
 .nav-elements {
   display: flex;
+  flex-direction: row;
   align-items: center;
   font-size: 0.85em;
   gap: 50px;
 }
 
 @media (max-width: 550px) {
-.nav-elements {
-  display: none
-}
+  .nav-elements {
+    display: none;
+  }
+  
+  .nav-elements.open {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 20px;
+    gap: 30px;
+    font-size: 0.75em;
+  }
 }
 
 .burger-menu {
@@ -192,6 +203,14 @@ nav {
 
 .burger-menu:active {
   stroke: teal;
+}
+
+.burger-menu svg {
+  transition: transform 0.3s ease;
+}
+
+.burger-menu.open svg {
+  transform: rotate(-90deg);
 }
 
 @media (min-width: 551px) {
