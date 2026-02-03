@@ -7,14 +7,6 @@ const portfolio = document.getElementById("portfolio");
 const about = document.getElementById("aboutMe");
 const contact = document.getElementById("contact");
 
-const burgerMenu = document.getElementById('burgerMenu');
-const navElements = document.getElementById('navElements');
-
-burgerMenu.addEventListener('click', () => {
-  burgerMenu.classList.toggle('open');
-  navElements.classList.toggle('open');
-});
-
 const clamp = (v, min = 0, max = 1) => Math.min(Math.max(v, min), max);
 
 const heroObserver = new IntersectionObserver(

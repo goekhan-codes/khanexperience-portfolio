@@ -177,14 +177,14 @@ nav {
     display: none;
   }
   
-  .nav-elements.open {
+  /* .nav-elements.open {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-top: 50px;
     gap: 30px;
     font-size: 0.65em;
-  }
+  } */
 }
 
 .burger-menu {
